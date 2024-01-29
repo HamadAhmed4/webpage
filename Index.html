@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DotCode</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+<style>
+	*{
+    box-sizing: border-box;
+}
+body{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ox ygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: fixed;
+    background-color: white;
+    margin-top: -9px;
+    
+    box-shadow: 5px 5px 10px 0px #b9b9b9;
+}
+.Contact-Box{
+    color: black;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact-box-1{
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+}
+.links{
+    font-weight: 500;
+}
+.header-box-3{
+    width: 13%;
+    align-self: center;
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
+    font-weight: 700;
+}
+.header-box{
+    width: 100%;
+    font-weight: 600;
+}
+.header-box-1{
+    width: 15%;
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    
+    border: none;
+    text-decoration: none;
+}
+.JPG{
+    width: 10%;
+}
+#home{
+    width: 16%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+#ICON{
+    width: 15%;
+}
+.bx{
+justify-content: space-between;
+}
+.link{
+    padding: 22px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+#unique{
+     text-decoration: none;
+     width: 70%;
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    font-weight: 800;
+}
+
+#unique-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    text-decoration: none;
+}
+
+.both-1{
+    display: flex;
+    width: 71%;
+}
+.box-1{
+    
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+background-image: url("https://media.istockphoto.com/id/475044792/vector/page-curl.jpg?s=612x612&w=0&k=20&c=R7_H_19dbzdOEK7_1URlz3_Et5QWwVjYdMDWRxd-0V0=");
+background-size: cover;
+justify-content: center;
+align-items: center;
+background-repeat: no-repeat;
+background-position: center;
+flex-direction: row;
+text-align: center;
+padding: 15%;
+
+background-size: cover;
+}
+.header-box-4{
+font-weight: 400;
+display: flex;
+flex-wrap: wrap;
+font-size: 17px;
+font-weight: 400;
+padding: 0px;
+width: 20%;
+}
+
+.paragraph{
+    font-size: 50px;
+    transform: none;
+    text-decoration: none;
+    font-weight: 600;
+   color: rgb(0, 0, 0);
+}
+
+.paragraph-1{
+    padding: 10%;
+    font-size:medium;
+    color: rgb(168, 168, 168);
+    
+}
+
+.flex-container{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+justify-content: center;
+}
+h1{
+    color: black;
+}
+.blub-item{
+     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+}
+.blub{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;    
+}
+.blub-1{
+    padding: 0;
+}
+
+.flex-item{
+    color: rgb(168, 168, 168);
+    width: 30%;
+    text-align: left;
+    padding: 10px;
+    align-items:flex-start;
+    display: flex;
+}
+.heading{
+    text-align: center;
+    font-size: 48px;
+    transform: none;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 1.22;
+   
+    padding: 20px;
+    }
+    .PRRA{
+        text-align: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .div{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-self: center;
+    }
+#PRA{
+    font-size: 18px;
+    color: rgb(168, 168, 168);
+transform: none;
+text-decoration: none;
+line-height: 1.3;
+font-weight: 400;
+width: 60%;
+text-align: center;
+}
+.both{
+    text-align: left;
+}
+.container{
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: flex-start;
+}
+.dark-mode{
+    color: white;
+    background: black;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 15px;
+}
+.border{
+    flex-direction: row;
+    width: 27%;
+    border-radius: 4px;
+background:#d4d4d4;
+    margin: 8px;
+    padding: 20px;
+}
+
+.graph{
+    text-align: center;
+    font-size: 50px;
+}
+.PR{
+    text-align: center;
+    color:rgb(163, 163, 163);
+    width: 60%;
+    line-height: 1.2;
+}
+.h2{
+    font-size: 38px;
+}
+.BOX{
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+.sub{
+    width: 20%;
+   
+}
+.Paragraph-5{
+text-align: center;
+    font-size: 48px;
+    transform: none;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 1.22;
+    text-align: center;
+    justify-content: center;
+  
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+.CONTACT{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+text-align: center;
+justify-content: space-between;
+}
+.ITEMS svg{
+    font-size: 30px;
+    background-color: silver;
+    border-radius: 50%;
+   padding: 20px;
+   width: 38px;
+   height: 38px;
+}
+.ITEMS{
+    width: 8%;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+   padding: 10px;
+}
+#bg{
+    background-color: #d4d4d4;
+    width: 40px;
+    height: 40px;
+    padding: 6px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.ek{
+    text-align: left;
+}
+h3{
+    font-size: 24px;
+    font-weight: 700;
+}
+h5{
+    
+    color: rgb(168, 168, 168);
+}
+h1{
+    text-align: start;
+    font-size: 22px;
+    color: white;
+}
+#Unq{
+    text-align: center;
+    font-size: 17px;
+    color: rgb(168, 168, 168);
+}
+h4{
+    font-size: 44px;
+    text-align: center;
+}
+.Text{
+    text-align: center;
+    width: 40%;
+    color: rgb(163, 163, 163);
+    line-height: 1.3;
+}
+.pr-1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    width: 100%;
+}
+.justify{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+.Contact-2{
+  border: 1px solid silver;
+  
+  margin-bottom: 20px;
+    width: 49%;
+}
+.Vid{
+ width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+.New{
+    border: 1px solid rgb(168, 168, 168);
+    
+}
+.Text-1{
+    font-size: 25px;
+    padding: 10px;
+}
+.Text-2{
+    padding: 10px;
+    color: rgb(163, 163, 163);
+    font-size: 17px;
+}
+
+.padd{
+    padding: 10px;
+    text-align: left;
+}
+.A{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-align: left;
+    font-weight: 600;
+}
+.bold{
+color:rgb(168, 168, 168);
+}
+#icon{
+justify-content: center;
+
+}
+.Contact-3{
+    width: 49%;    
+    
+}
+
+.item{
+
+    font-size: 18px;
+    text-align:left;
+    width: 49%;
+    border: 1px solid rgb(168, 168, 168);
+    margin-bottom: 20px;
+    
+}
+h5{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+.item img{
+    
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+ 
+}
+.bottom-property{
+font-size: 18px;
+font-weight: 500;
+    align-items: center;
+    margin-top: 20px;
+    border-top: 0.2px solid rgb(212, 212, 212);
+    padding: 10px;
+    }
+    .payment-child-1{
+        border-top: 0.2px solid rgb(212, 212, 212);
+    }
+
+
+    .bottom-2{
+justify-content:end;
+display: flex;
+flex-wrap: wrap;
+width: 49%;
+font-size: 18px;
+font-weight: 600;
+}
+.bottom-child-1{
+    margin-right: 10px;
+}
+.bottom-child{
+    width: 49%;
+
+}
+
+.main-heading{
+    text-align: center;
+    font-size: 53px;
+    transform: none;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 1.22;
+}
+.payment-heading{
+    font-style: normal;
+ text-align: left;
+    font-size: 47px;
+    font-weight: 500;
+}
+.payment-property{
+    text-align: center;
+}
+.flex-properties{
+    display: flex;
+    flex-wrap: wrap;
+justify-content: space-between;
+}
+.flex-properties-1{
+    display: flex;
+    padding: 1%;
+    flex-wrap: wrap;
+justify-content: center;
+
+}
+
+.payment-child-2 { 
+    border-radius: 5px;
+    width: 38%;
+    align-self: stretch;
+   background-color: #d4d4d4;
+    padding-top: 1px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 30px;
+}
+.property-1{
+    text-align:left;
+    justify-content: space-evenly;
+}
+.property-2{
+    font-weight: 600;
+    font-size: 26px;
+    text-align: initial;
+}
+.payment-child-3{
+    justify-content: inherit;
+    flex-direction: column;
+    width: 20%;
+padding: 36px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea{
+    width: 100%;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;   
+    font-size: large;
+}
+input[type="submit"]{
+    width: 60%;
+    font-style: system-ui;
+    font-size: initial;
+    text-align: center;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    padding: 10px;
+    border: none;
+}
+
+.bottom-child-1-two{
+    margin-right: 10px;
+    justify-content:end;
+}
+.bottom-child-one{
+    width: 10%;
+    
+}
+.item-flex-property{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+justify-content: center;
+align-items: center;
+}
+
+/* For Extra Small Devices e.g,. Small Phones */
+@media screen and (max-width: 576px){
+    .flex-container .both-1, .flex-container .flex-item{
+        width: 100%;
+    }
+    .flex-container .both-1{
+        margin-top: 5%;
+    }
+    #unique{
+        padding: 8px;
+    }
+    h4{
+        margin-top: 10%;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .Paragraph-5{
+        margin-top: 10%;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .PRRA{
+        margin-top: 10%;
+    }
+    .link{
+        font-weight: 800;
+    }
+    .header-box-1 {
+        width: 50%;
+    
+    }
+    .header-box-4{
+       width: 50%;
+    }
+
+    .container .border{
+        width: 100%;
+    }
+    .CONTACT .ITEMS{
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+    }
+     .flex-properties .Contact-2{
+        width: 100%;
+    }
+    .Contact-3{
+        width: 100%;
+    }
+    .flex-properties .item{
+        width: 100%;
+    }
+    
+    .box-1 #unique{
+        width: 100%;
+    }
+    .payment-child-3{
+        width: 40%;
+        padding: 0;
+
+    }
+    .payment-child-2 {
+        width: 100%;
+    }
+    .Text{
+        width: 80%;
+    }
+    .property-2 .property-1 {
+width: 100%;
+flex-direction: row;
+    }
+    .bottom-property .bottom-child-one{
+        flex-direction: row;
+        width: 50%;
+    }
+}
+
+/* For Small Devices e.g., Latest Mobile Phones*/
+@media screen and (min-width: 577px) and (max-width: 768px){
+
+    .flex-container .both-1, .flex-container .flex-item{
+        width: 80%;
+    }
+    .header-box-4{
+       width: 50%;
+    }
+
+    .container .border{
+        width: 100%;
+        padding: 15px;
+        margin: 20px;
+    }
+    .CONTACT .ITEMS{
+        width: 15%;
+        align-items: center;
+        justify-content: center;
+    }
+     .flex-properties .Contact-2{
+        width: 100%;
+    }
+    .Contact-3{
+        width: 100%;
+    }
+    .flex-properties .item{
+        width: 100%;
+    }
+    
+    .box-1 #unique{
+        width: 100%;
+    }
+    .payment-child-3{
+        width: 40%;
+        padding: 0;
+
+    }
+    .payment-child-2 {
+        width: 100%;
+    }
+    .Text{
+        width: 80%;
+    }
+    .property-2 .property-1 {
+width: 100%;
+flex-direction: row;
+    }
+    .bottom-property .bottom-child-one{
+        flex-direction: row;
+        width: 25%;
+    }
+}
+
+
+/* For Medium Devices e.g,. Regular Tablets*/
+@media screen and (min-width: 769px) and (max-width: 992px){
+    .flex-container .both-1, .flex-container {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+    }
+    .header-box-1{
+        width: 20%;
+    }
+        .heading{
+            padding: 10px;
+            margin: 5px;
+        }
+        .header-box-4{
+           width: 50%;
+        }
+    
+        .container .border{
+            width: 31%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 25px;
+    margin: 5px;
+        }
+      .item-flex-property .flex-item{
+            width: 33%;
+
+        }
+        .CONTACT .ITEMS{
+            width: 15%;
+            align-items: center;
+            justify-content: center;
+        }
+         .flex-properties .Contact-2{
+            width: 100%;
+        }
+        .Contact-3{
+            width: 100%;
+        }
+        .flex-properties .item{
+            width: 49%;
+        }
+        
+        .box-1 #unique{
+            width: 100%;
+        }
+        .payment-child-3{
+            width: 27%;
+            padding: 40px;
+    
+        }
+        .payment-child-2 {
+            width: 60%;
+        }
+        .Text{
+            width: 80%;
+        }
+        .property-2 .property-1 {
+    width: 100%;
+    flex-direction: row;
+        }
+        .bottom-property .bottom-child-one{
+            flex-direction: row;
+            width: 15%;
+        }
+    }
+
+
+</style>
+</head>
+
+<body>
+	<nav class="box"> 
+		<div class="Contact-Box"> <!--Perent-->
+			<div class="contact-box-1"> <!--Child-1-->
+		<div class="header-box-3">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6a55w_Tt0EvR86q5n_BVLuj05oy9OegQqc7-J55_qmy4RqRRqfokrj4mbaQQLaupQq9U&usqp=CAU" width="60" height="60" alt=""> 
+		</div>
+		<div class="header-box">
+			 <a class="link" href="#">Resources </a>
+			<a class="link" href="#">Inspiration </a>
+			<a class="link" href="#">Process </a>
+			<a class="link" href="#">Our Story </a>
+		</div>
+	    </div> <!--child-1 close-->
+		
+		<div class="header-box-1"> <!--Child-2-->
+	 <a  id="unique" href="#" class="now">STAT NOW </a> 
+
+</div> <!--Child-2-->
+      </div> <!--perent close-->
+	</nav>
+	<div class="box-1">
+		<p class="paragraph"> Tell The Whole about your ideea </p>
+		<p class="paragraph-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima perspiciatis similique exercitationem incidunt accusantium ab vitae voluptate fuga, porro recusandae ipsam velit laudantium repellat in perferendis pariatur harum sapiente voluptatum? Veritatis laboriosam ratione atque accusamus beatae aut fugiat? Laudantium quidem perspiciatis exercitationem ducimus quibusdam velit nesciunt omnis, fuga eius reprehenderit labore. </p>
+		<div class="header-box-4">
+	<a id="unique-1" href="#">START NOW </a> 
+	</div>
+	</div>
+	
+	<div class="flex-container"> <!--Perent-->
+			<div class="both-1"> 
+				<p class="heading"> Which are the greatest things about it? </p>
+			</div>
+			<div class="item-flex-property">
+			<div class="flex-item"><!--child-1 -->
+				<div class="blub">
+				<i id="bg" class="fa-regular fa-lightbulb" style="color: black;"></i> 
+				 </div>
+				
+				<div class="blub-1">
+					<h1>Feature one </h1>
+				
+					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis possimus ducimus aliquam quam minima sequi! Eum accusantium nobis voluptatum, suscipit veniam vitae. Veniam distinctio dolorum incidunt! </p>
+			</div>
+			</div>	<div class="flex-item"><!--child-1 -->
+				<div class="blub">
+				<i id="bg" class="fa-regular fa-lightbulb" style="color: black;"></i> 
+				 </div>
+				
+				<div class="blub-1">
+					<h1>Feature Two</h1>
+				
+					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis possimus ducimus aliquam quam minima sequi! Eum accusantium nobis voluptatum, suscipit veniam vitae. Veniam distinctio dolorum incidunt! </p>
+			</div>
+			</div>	<div class="flex-item">
+                <!--child-1 -->
+				<div class="blub">
+				<i id="bg" class="fa-regular fa-lightbulb" style="color: black;"></i> 
+				 </div>
+				
+				<div class="blub-1">
+					<h1>Feature Three </h1>
+				
+					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis possimus ducimus aliquam quam minima sequi! Eum accusantium nobis voluptatum, suscipit veniam vitae. Veniam distinctio dolorum incidunt! </p>
+			</div>
+			</div>	<div class="flex-item">
+                <!--child-1 -->
+				<div class="blub">
+				<i id="bg" class="fa-regular fa-lightbulb" style="color: black;"></i> 
+				 </div>
+				
+				<div class="blub-1">
+					<h1>Feature Four </h1>
+				
+					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis possimus ducimus aliquam quam minima sequi! Eum accusantium nobis voluptatum, suscipit veniam vitae. Veniam distinctio dolorum incidunt! </p>
+			</div>
+			</div>	<div class="flex-item">
+                <!--child-1 -->
+				<div class="blub">
+				<i id="bg" class="fa-regular fa-lightbulb" style="color: black;"></i> 
+				 </div>
+				
+				<div class="blub-1">
+					<h1>Feature Five </h1>
+				
+					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis possimus ducimus aliquam quam minima sequi! Eum accusantium nobis voluptatum, suscipit veniam vitae. Veniam distinctio dolorum incidunt! </p>
+			</div>
+			</div>	<div class="flex-item">
+                <!--child-1 -->
+				<div class="blub">
+				<i id="bg" class="fa-regular fa-lightbulb" style="color: black;"></i> 
+				 </div>
+				<div class="blub-1">
+					<h1>Feature Six </h1>
+					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis possimus ducimus aliquam quam minima sequi! Eum accusantium nobis voluptatum, suscipit veniam vitae. Veniam distinctio dolorum incidunt! </p>
+			</div>
+		</div>
+			</div>
+	
+	</div>
+	</div>
+	<div class="PRRA">
+	<p class="heading"> More Things To Explore </p>
+	
+	<p id="PRA"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur et quaerat ut, sint blanditiis magnam nesciunt omnis non and the most wanted things in Pakistan mollitia autem commodi molestias? Velit. </p>
+</div>
+	<div class="container">
+		<div class="border">
+			<h2>Resources </h2>
+			<p class="bold"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis possimus ducimus aliquam quam minima sequi! Eum accusantium nobis voluptatum, suscipit veniam vitae. </p> <a class="A" href="#">Learn More</a> </div>
+		<div class="border">
+			<h2>Community </h2>
+			<p class="bold"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis possimus ducimus aliquam quam minima sequi! Eum accusantium nobis voluptatum, suscipit veniam vitae. </p> <a class="A" href="#">Learn More</a> </div>
+		<div class="border">
+			<h2>Newsroom </h2>
+			<p class="bold"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis possimus ducimus aliquam quam minima sequi! Eum accusantium nobis voluptatum, suscipit veniam vitae. </p> <a class="A" href="#">Learn More</a> </div>
+			
+		<div class="BOX">
+			<p class="Paragraph-5">Meet the Team</p>
+			<div class="pr-1">
+			<p class="PR">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eius repudiandae ea incidunt fuga voluptatibus magnam vero necessitatibus  Perspiciatis possimus ducimus aliquam quam minima sequi! Eum accusantium nobis voluptatum, suscipit.</p>
+		</div>
+			<div class="CONTACT">
+				<div class="ITEMS">
+<i id="man-icon" class="fa-solid fa-user"></i>
+		<h3>John<h5>position</h5></h3> </div>
+<div class="ITEMS"> 
+	<i id="man-icon" class="fa-solid fa-user"></i>
+	<h3>Megan<h5>position</h5></h3> </div>
+	<div class="ITEMS"> 
+		<i id="man-icon" class="fa-solid fa-user"></i>
+	<h3>Alex<h5>position</h5></h3> </div>
+	<div  class="ITEMS">
+		 <i id="man-icon" class="fa-solid fa-user"></i>
+	<h3>Sabrina<h5>position</h5></h3> </div>
+	<div class="ITEMS"> 
+	<i id="man-icon" class="fa-solid fa-user"></i>
+	<h3>Ben<h5>position</h5></h3></div>
+			</div>
+		
+		</div>
+		<div class="Contact">
+			<div class="justify">
+			<h4>Our Story</h4>
+			<p class="Text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quasi ex incidunt possimus ut natus quo corrupti nam omnis perferendis provident consectetur eveniet fugit iusto minus error officiis cumque voluptas.</p>
+		</div>
+			<div class="flex-properties">
+				<div class="Contact-2">
+                    <iframe class="Vid" width="560" height="315" src="https://www.youtube.com/embed/a01oPKZQKoQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+					<!-- <video class="Vid" src="" controls loop></video>
+					  -->
+					<p class="Text-1 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente magni eaque quisquam quibusdam.</p>
+					<p class="Text-2 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et sunt dolorum nisi. Nam veritatis, quod magni sapiente dolor delectus velit fuga ipsa a provident ea porro quia harum repudiandae blanditiis ab consequatur dolorem labore. Voluptates debitis officiis fugiat laboriosam quidem quas maxime facere rem doloremque. Eaque nesciunt asperiores non dolorem maxime, est error minus totam.Nam veritatis, quod magni sapiente dolor delectus velit fuga ipsa a provident ea porro quia harum repudiandae blanditiis ab consequatur dolorem labore. <br></p>
+						<a class="A padd" href="#">Read More</a>
+					<div class="bottom-property flex-properties">
+						<div class="bottom-child">12 APR 2021</div>
+						<div class="bottom-2">
+							<div class="bottom-child-1">
+								<i class="fa-regular fa-comment"></i> 123
+							</div>
+						
+
+							<div class="bottom-child-1">
+								<i class="fa sharp fa-regular fa-eye"></i> 4567 </div>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="Contact-3 flex-properties">
+					<div class="item"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc83_beqlmHBDJfBM6aX3QK6xTkzR6pdw0uA&usqp=CAU" alt="vs icon">
+						<p class="padd">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem enim cupiditate est praesentium minus et eius ea quasi...</p> 
+						<a class="A padd" href="#">Read More</a>
+						<div class="bottom-property flex-properties">
+							<div class="bottom-child">12 APR 2021</div>
+							<div class="bottom-2">
+								<div class="bottom-child-1">
+									<i class="fa-regular fa-comment"></i> 123
+								</div>
+	
+								<div class="bottom-child-1">
+									<i class="fa sharp fa-regular fa-eye"></i> 4567 </div>
+							</div>
+						</div>
+
+          </div>
+          <div class="item"> <img src="
+            https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv6rv8y4fASw2ziy4omqGMUr3SIbnWChNvuw&usqp=CAU" alt="vs icon">
+						<p class="padd">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem enim cupiditate est praesentium minus et eius ea quasi...</p> 
+						<a class="A padd" href="#">Read More</a>
+						<div class="bottom-property flex-properties">
+							<div class="bottom-child">12 APR 2021</div>
+							<div class="bottom-2">
+								<div class="bottom-child-1">
+									<i class="fa-regular fa-comment"></i> 123
+								</div>
+	
+								<div class="bottom-child-1">
+									<i class="fa sharp fa-regular fa-eye"></i> 4567 </div>
+							</div>
+						</div>
+          </div>
+          <div class="item"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv6rv8y4fASw2ziy4omqGMUr3SIbnWChNvuw&usqp=CAU" alt="vs icon">
+						<p class="padd">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem enim cupiditate est praesentium minus et eius ea quasi...</p> 
+						<a class="A padd" href="#">Read More</a>
+						<div class="bottom-property flex-properties">
+							<div class="bottom-child">12 APR 2021</div>
+							<div class="bottom-2">
+								<div class="bottom-child-1">
+									<i class="fa-regular fa-comment"></i> 123
+								</div>
+	
+								<div class="bottom-child-1">
+									<i class="fa sharp fa-regular fa-eye"></i> 4567</div>
+							</div>
+						</div>
+          </div>
+
+          <div class="item"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc83_beqlmHBDJfBM6aX3QK6xTkzR6pdw0uA&usqp=CAU" alt="vs icon">
+						<p class="padd">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem enim cupiditate est praesentium minus et eius ea quasi..</p> 
+						<a class="A padd" href="#">Read More</a>
+						<div class="bottom-property flex-properties">
+							<div class="bottom-child">12 APR 2021</div>
+							<div class="bottom-2">
+								<div class="bottom-child-1">
+									<i class="fa-regular fa-comment"></i> 123
+								</div>
+	
+								<div class="bottom-child-1">
+									<i class="fa sharp fa-regular fa-eye"></i> 4567 </div>
+							</div>
+						</div>
+          </div>
+				</div>
+			</div>
+		</div>
+	</div>
+<br>
+<div class="payment-property">
+
+	  <div class="payment-child-1">
+	      <p class="main-heading ">Get in touch</p>
+</div>
+ <form action=""> 
+	 <div class="flex-properties-1">
+	 <div class="payment-child-2">
+		 
+		<p class="payment-heading">Send us a message</p>
+	     <p>
+		   <input type="text" name="name" placeholder="Name">
+	    </p>
+	     <p>
+		   <input type="email" name="email" id="email" placeholder="E-mail" >
+	    </p>
+	    <p>
+	      <textarea name="textarea" id="textarea" cols="23" rows="6" placeholder="Your Message"></textarea>
+	    </p>
+	     <p>
+		  <input type="submit" value="SEND">
+	    </p>
+	 </div>
+     </div>
+    </form>
+	<div class="payment-child-3 flex-properties-1">
+	<p class="property-2">London,UK</p>
+	<div class="property-1">
+<p><i class="fa-solid fa-location-dot"></i>Address</p>
+	   </div>
+	
+	<div class="property-1">
+<p><i class="fa-solid fa-envelope"></i>  E-mail address</p>
+	</div>
+	
+	<div class="property-1">
+			 <p><i class="fa-solid fa-phone"></i> Phone Number</p>
+	</div>
+		</div>
+</div>
+	<div class="bottom-property flex-properties">
+						<div class="bottom-child-one">
+	<i  class="fa-brands fa-twitter" style="color: #000000; font-size: 25px; ">
+	</i>            
+	<i class="fa-brands fa-facebook" style="color: #000000; font-size: 25px; ">
+	</i>           
+	<i  class="fa-brands fa-instagram"  style="color: #000000; font-size: 25px;">
+	</i>
+ </div>
+						<div class="bottom-2">
+							<div class="bottom-child-1-two">
+								<i class="fa-regular fa-copyright"></i> Copyright,2021
+							</div>
+</div>
+<div class="dark-mode">
+	<a style="    text-decoration: none;
+    color: white;
+" href="./Web.html">Dark Mode</a>     
+</div>     
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>     
+</html><!-- HTML End -->
